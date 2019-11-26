@@ -148,7 +148,7 @@ $('#form-member-support .form-body').on('input', '.input-support', function() {
 	
 	if ($(this).val() !== "") {
 		$(this).parent().find('.div-hangul-support').html(
-			"월 " + 
+			"연 " + 
 			numberToKorean(
 				numStrWithCommasToInt($(this).val()) * 10000
 			) +
