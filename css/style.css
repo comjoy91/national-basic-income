@@ -1,0 +1,185 @@
+
+@font-face { 
+	font-family: 'DOSMyungjo';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') format('woff'); 
+	font-weight: normal; 
+	font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 700;
+    src: local('Spoqa Han Sans Bold'), local('SpoqaHanSans-Bold'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 400;
+    src: local('Spoqa Han Sans Regular'), local('SpoqaHanSans-Regular'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 300;
+    src: local('Spoqa Han Sans Light'), local('SpoqaHanSans-Light'), 
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansLight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Spoqa Han Sans';
+    font-weight: 100;
+    src: local('Spoqa Han Sans Thin'), local('SpoqaHanSans-Thin'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@01ff0283e4f36e159ffbf744b36e16ef742da6d8/Subset/SpoqaHanSans/SpoqaHanSansThin.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'Iropke Batang';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot);
+	src: url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.eot?#iefix) format('embedded-opentype'),
+	   url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.woff) format('woff'),
+	   url(//cdn.jsdelivr.net/font-iropke-batang/1.2/IropkeBatangM.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'open-arrow';
+    src: url('../@asset/fonts/OpenArrow-Regular.eot') format('embedded-opentype'),
+         url('../@asset/fonts/OpenArrow-Regular.woff2') format('woff2'),
+         url('../@asset/fonts/OpenArrow-Regular.woff') format('woff'),
+         url('../@asset/fonts/OpenArrow-Regular.otf') format('opentype'),
+         url('../@asset/fonts/OpenArrow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+2190-21ff;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+
+body { 
+	position: relative; /* bootstrap scrollspy 작동을 위함. */
+	font-family: 'Spoqa Han Sans', 'open-arrow', /*여기부터는 system 기본 font */-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	font-weight: 400; line-height: 1.5;
+}
+/*
+body { 
+	font-family: 'KoPub Batang',serif;
+}
+*/
+body[data-useragent*='Windows'] {
+	font-family: 'Lato', 'Noto Sans KR', 'Spoqa Han Sans', 'open-arrow', sans-serif;
+}
+
+
+/* ---------------------- color elements  ----------------------  */
+
+
+
+
+/* ---------------------- typo elements  ----------------------  */
+
+input[type="text"] {
+	text-align: right;
+}
+
+
+
+
+
+
+/* ---------------------- layout elements.......  ----------------------  */
+
+
+
+/* ---------------------- scrollspy layout elements ---------------------- */
+
+
+
+
+/* ---------------------- chapter/section/question elements ---------------------- */
+
+
+
+
+/* ---------------------- button/textbox/pagerbutton elements ---------------------- */
+
+
+
+
+/* ---------------------- share button (div.share-listBox) elements ---------------------- */
+
+/*
+div.share-listBox {
+	width: 100%; display: inline-block;
+	font-size: 18px; text-align: center;
+	margin: 1em 0 2em;
+}
+	.share-listBox div.share-button.share-text { font-size: 14px; font-weight: 600; }
+	.share-listBox div.share-button.fb-icon, 
+	.share-listBox div.share-button.tw-icon, 
+	.share-listBox div.share-button.ka-icon,
+	.share-listBox div.share-button.link-copy-icon {
+		display: inline-block; vertical-align: middle;
+		width: 1.7em; height: 1.7em; margin: 0.5em 0.5em;
+	} 
+
+	.share-listBox div.share-button.link-copy-icon { border-radius: calc(1.7em/2); background-color: #ffffff; }
+	.share-listBox div.share-button.link-copy-icon:hover { cursor: pointer; }
+
+	.share-listBox div.share-button.fb-icon a, 
+	.share-listBox div.share-button.tw-icon a,
+	.share-listBox div.share-button.ka-icon a,
+	.share-listBox div.share-button.fb-icon a img, 
+	.share-listBox div.share-button.tw-icon a img,
+	.share-listBox div.share-button.ka-icon a img { display: inline-block; width: 1.7em; }
+
+	.share-listBox div.share-button.link-copy-icon span.glyphicon { vertical-align: middle; }
+	.share-listBox div.share-button.link-copy-icon span.glyphicon-link:before { vertical-align: top; text-align: center; }
+
+*/
+
+
+
+
+
+
+
+/* ---------------------- Extra small devices (phones, less than 768px) ---------------------- */
+/* No media query since this is the default in Bootstrap */
+
+
+
+
+
+/* ---------------------- Small devices (tablets, 768px and up) ---------------------- */
+@media (min-width: 768px/*@screen-sm-min*/) { 
+
+	
+}
+
+
+
+
+/* ---------------------- Medium devices (desktops, 992px and up) ---------------------- */
+@media (min-width: 992px/*@screen-md-min*/) {
+	
+
+}
+
+
+
+
+/* ---------------------- Large devices (large desktops, 1200px and up) ---------------------- */
+@media (min-width: 1200px/*@screen-lg-min*/) { 
+
+
+}
